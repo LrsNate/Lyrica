@@ -1,0 +1,132 @@
+a
+{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover, p#draw_link:hover
+{
+  text-decoration: underline;
+}
+
+#all
+{
+	width: 950px;
+	margin: auto;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	padding: 0 0 0 0;
+}
+
+#all > h1
+{
+  text-align: center;
+}
+
+#all > p
+{
+  padding: 0 0 0 5px;
+}
+
+
+.character
+{
+	margin-top: 30px;
+	margin-left: 10px;
+	width: 300px;
+}
+
+p#draw_link, .character a
+{
+	font-style: italic;
+	cursor: pointer;
+}
+
+.character_image
+{
+	width:300px;
+	cursor: pointer;
+	margin: auto;
+}
+
+.character_name
+{
+	text-align: center;
+}
+
+.character_image p
+{
+	text-align: center;
+}
+
+.switch:hover
+{
+	cursor: pointer;
+}
+
+body
+{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+header
+{
+	height: 150px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0 0 0 5px;
+	border: 1px solid black;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+nav
+{
+	height: 30px;
+	border-bottom: 1px solid black;
+    padding: 0 0 0 5px;
+}
+
+#tie
+{
+	vertical-align: middle;
+}
+
+#tie p
+{
+	text-align: center;
+}
+
+ul#menu
+{
+	list-style-type: none;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+ul#menu li
+{
+	display: inline-block;
+	line-height: 30px;
+  border-right: 1px solid black;
+  padding: 0 8px 0 5px;
+}
+
+footer
+{
+  border-bottom: 1px solid black;
+}
+
+ul#menu li
+{
+	display: inline;
+	line-height: 30px;
+}
+
+#vote
+{
+	width: 100%;
+}
